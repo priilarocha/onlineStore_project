@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnlineStore_project</string>
+    <string name="store_icon">Store icon</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+</resources>
