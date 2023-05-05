@@ -1,6 +1,5 @@
 package com.example.onlinestore_project
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
@@ -13,7 +12,7 @@ import okhttp3.Call
 import java.io.IOException
 import org.json.JSONArray
 
-class Categories : AppCompatActivity() {
+class CategoryActivity : AppCompatActivity() {
 
     private lateinit var categoriesListView: ListView
 
@@ -46,11 +45,10 @@ class Categories : AppCompatActivity() {
                             categories.add(json.getString(i))
                         }
                         val adapter = ArrayAdapter(
-                            this@Categories,
+                            this@CategoryActivity,
                             android.R.layout.simple_list_item_1,
                             categories
                         )
-
 
                         categoriesListView.adapter = adapter
 

@@ -16,9 +16,6 @@ import okhttp3.Request
 import okhttp3.Callback
 import okhttp3.*
 import java.io.IOException
-import com.example.onlinestore_project.Auth
-import com.example.onlinestore_project.Token
-import com.example.onlinestore_project.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -49,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.signUp.setOnClickListener {
-            val intent = Intent(this, CreateAnAccount::class.java)
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -85,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                             runOnUiThread {
                                 Log.i("MAIN_ACT", "Success: $responseString")
                                 Log.i("MAIN_ACT", "Token: ${tokenObject.token}")
-                                val intent = Intent(this@MainActivity, Categories::class.java)
+                                val intent = Intent(this@MainActivity, CategoryActivity::class.java)
                                 startActivity(intent)
                                 finish()
                             }

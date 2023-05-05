@@ -27,26 +27,26 @@
     - [ ] 5.2. Show a random circular profile image
     - [ ] 5.3. Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
 - [ ] 6. UI/Implementational Requirements
-    - [ ] 6.1. RecyclerView used for all Lists: Categories, Products, Orders
+    - [x] 6.1. RecyclerView used for all Lists: Categories, Products, Orders
     - [ ] 6.2. If logged in, attach authentication token to all requests until logout
     - [ ] 6.3. Add a small "About this app" button in the profile page, that shows a page on click with your copyright details and credits
 - [ ] 7. Bonus
     - [ ] 7.1. ViewPager2 with bottom TabLayout for: Shop, Cart, Orders, Profile icons
     - [ ] 7.2. Show a map fragment based on the GPS co-ordinates in the user profile
 
-## Additional Features implemented
-
-This is an optional section, feel free to remove this.
 
 ## Report
 
-A short report (300-1000 words) describing the challenges you faced, failed attempts and workarounds used, any helper or alternative libraries you have used, and what you have learned in the process.
+I had been struggling to communicate the app with the fake store api. I had tried and redone this project many times. Every time I changed the way I was creating the app, but always I was stopped in a different challenge.
+In this last version I kept using the login technique we learnt on the 19/04 class, and the layouts were created.
+I had created the recycler view layouts as well, the only problem is to connect it to the api.
 
 ## References and Credits
 
-1. RecyclerView Example. URL: [Link](https://example.org)
-1. ViewPager2 Blog. URL: [Link](https://example.org)
+1. Shopping cart. URL: [Link](https://pusher.com/tutorials/shopping-cart-kotlin-part-1/#demo)
+2. Duplicate class error. URL: [Link](https://stackoverflow.com/questions/75274720/a-failure-occurred-while-executing-appcheckdebugduplicateclasses)
+3. OkHttp. URL: [Link](https://square.github.io/okhttp/recipes/)
 
 ## APK Releases
 
-1. Add your release name and update this [link](https://example.org)
+1. onlineStore_1.0 [link](https://github.com/priilarocha/onlineStore_project/releases/tag/onlineStore)
