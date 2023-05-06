@@ -45,7 +45,7 @@ So after a long time trying and a lot of errors, this is the final version of th
 ## Screenshots
 Project - Online Store [video](https://youtube.com/shorts/TDTZ49WU7sE?feature=share)
 
-[Online Store Project](https://user-images.githubusercontent.com/108243276/236629808-3ec2e194-91a5-48ae-9f1c-4f0b5f7fddda.webm)
+[OnlineStore-Project](https://user-images.githubusercontent.com/108243276/236629808-3ec2e194-91a5-48ae-9f1c-4f0b5f7fddda.webm)
 
 
 ## References and Credits
