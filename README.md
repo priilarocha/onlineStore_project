@@ -44,7 +44,7 @@ So after a long time trying and a lot of errors, this is the final version of th
 
 ## Screenshots
 Project - Online Store [video](https://youtube.com/shorts/TDTZ49WU7sE?feature=share)
-<video src='https://youtube.com/shorts/TDTZ49WU7sE?feature=share' width=180/>
+<video src='https://youtube.com/shorts/TDTZ49WU7sE?feature=share' width=180></video>
 
 
 ## References and Credits
