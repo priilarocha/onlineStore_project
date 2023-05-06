@@ -82,7 +82,8 @@ class MainActivity : AppCompatActivity() {
                             runOnUiThread {
                                 Log.i("MAIN_ACT", "Success: $responseString")
                                 Log.i("MAIN_ACT", "Token: ${tokenObject.token}")
-                                val intent = Intent(this@MainActivity, CategoryActivity::class.java)
+                                // after login, go to ProductListActivity
+                                val intent = Intent(this@MainActivity, ProductListActivity::class.java)
                                 startActivity(intent)
                                 finish()
                             }

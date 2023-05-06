@@ -21,6 +21,15 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
+            android:name=".ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailProductActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
